@@ -6,7 +6,7 @@ const ProductCard = ({img,name,price}) => {
         <div>
             <p>{name}</p>
         </div>
-        <img width={"55%"} src={img} alt="" />
+        <img width={"50%"} src={img} alt="" />
         <div>
             <p>Rs {price}</p>
             <button>Add to cart</button>
